@@ -58,12 +58,11 @@ To display the current version of `radical`, `radiant` and `go` installed on you
 
 ```bash
 $ radical version
-______
-| ___ \
-| |_/ /  ___   ___
-| ___ \ / _ \ / _ \
-| |_/ /|  __/|  __/
-\____/  \___| \___| v1.6.2
+██████   █████  ██████  ██  █████  ███    ██ ████████ 
+██   ██ ██   ██ ██   ██ ██ ██   ██ ████   ██    ██    
+██████  ███████ ██   ██ ██ ███████ ██ ██  ██    ██    
+██   ██ ██   ██ ██   ██ ██ ██   ██ ██  ██ ██    ██    
+██   ██ ██   ██ ██████  ██ ██   ██ ██   ████    ██  v1.0.0
 
 ├── radiant     : 1.7.2
 ├── GoVersion : go1.7.4
@@ -101,12 +100,11 @@ To create a new radiant web application:
 
 ```bash
 $ radical new my-web-app
-______
-| ___ \
-| |_/ /  ___   ___
-| ___ \ / _ \ / _ \
-| |_/ /|  __/|  __/
-\____/  \___| \___| v1.6.2
+██████   █████  ██████  ██  █████  ███    ██ ████████ 
+██   ██ ██   ██ ██   ██ ██ ██   ██ ████   ██    ██    
+██████  ███████ ██   ██ ██ ███████ ██ ██  ██    ██    
+██   ██ ██   ██ ██   ██ ██ ██   ██ ██  ██ ██    ██    
+██   ██ ██   ██ ██████  ██ ██   ██ ██   ████    ██  v1.0.0
 2016/12/26 22:28:11 INFO     ▶ 0001 Creating application...
     create   /home/radicaluser/.go/src/github.com/user/my-web-app/
     create   /home/radicaluser/.go/src/github.com/user/my-web-app/conf/
@@ -152,12 +150,12 @@ To compress a radiant application into a single deployable file:
 
 ```bash
 $ radical pack
-______
-| ___ \
-| |_/ /  ___   ___
-| ___ \ / _ \ / _ \
-| |_/ /|  __/|  __/
-\____/  \___| \___| v1.6.2
+
+██████   █████  ██████  ██  █████  ███    ██ ████████ 
+██   ██ ██   ██ ██   ██ ██ ██   ██ ████   ██    ██    
+██████  ███████ ██   ██ ██ ███████ ██ ██  ██    ██    
+██   ██ ██   ██ ██   ██ ██ ██   ██ ██  ██ ██    ██    
+██   ██ ██   ██ ██████  ██ ██   ██ ██   ████    ██  v1.0.0
 2016/12/26 22:29:29 INFO     ▶ 0001 Packaging application on '/home/radicaluser/.go/src/github.com/user/my-web-app'...
 2016/12/26 22:29:29 INFO     ▶ 0002 Building application...
 2016/12/26 22:29:29 INFO     ▶ 0003 Using: GOOS=linux GOARCH=amd64
@@ -208,12 +206,12 @@ To create a radiant API application:
 
 ```bash
 $ radical api my-api
-______
-| ___ \
-| |_/ /  ___   ___
-| ___ \ / _ \ / _ \
-| |_/ /|  __/|  __/
-\____/  \___| \___| v1.6.2
+
+██████   █████  ██████  ██  █████  ███    ██ ████████ 
+██   ██ ██   ██ ██   ██ ██ ██   ██ ████   ██    ██    
+██████  ███████ ██   ██ ██ ███████ ██ ██  ██    ██    
+██   ██ ██   ██ ██   ██ ██ ██   ██ ██  ██ ██    ██    
+██   ██ ██   ██ ██████  ██ ██   ██ ██   ████    ██  v1.0.0
 2016/12/26 22:30:12 INFO     ▶ 0001 Creating API...
     create   /home/radicaluser/.go/src/github.com/user/my-api
     create   /home/radicaluser/.go/src/github.com/user/my-api/conf
@@ -240,12 +238,12 @@ To create an Hprose RPC application based on radiant:
 
 ```bash
 $ radical hprose my-rpc-app
-______
-| ___ \
-| |_/ /  ___   ___
-| ___ \ / _ \ / _ \
-| |_/ /|  __/|  __/
-\____/  \___| \___| v1.6.2
+
+██████   █████  ██████  ██  █████  ███    ██ ████████ 
+██   ██ ██   ██ ██   ██ ██ ██   ██ ████   ██    ██    
+██████  ███████ ██   ██ ██ ███████ ██ ██  ██    ██    
+██   ██ ██   ██ ██   ██ ██ ██   ██ ██  ██ ██    ██    
+██   ██ ██   ██ ██████  ██ ██   ██ ██   ████    ██  v1.0.0
 2016/12/26 22:30:58 INFO     ▶ 0001 Creating application...
     create   /home/radicaluser/.go/src/github.com/user/my-rpc-app/
     create   /home/radicaluser/.go/src/github.com/user/my-rpc-app/conf/
@@ -275,12 +273,12 @@ To pack all the static files into Go source files:
 
 ```bash
 $ radical bale
-______
-| ___ \
-| |_/ /  ___   ___
-| ___ \ / _ \ / _ \
-| |_/ /|  __/|  __/
-\____/  \___| \___| v1.6.2
+
+██████   █████  ██████  ██  █████  ███    ██ ████████ 
+██   ██ ██   ██ ██   ██ ██ ██   ██ ████   ██    ██    
+██████  ███████ ██   ██ ██ ███████ ██ ██  ██    ██    
+██   ██ ██   ██ ██   ██ ██ ██   ██ ██  ██ ██    ██    
+██   ██ ██   ██ ██████  ██ ██   ██ ██   ████    ██  v1.0.0
 2016/12/26 22:32:41 INFO     ▶ 0001 Loading configuration from 'radical.json'...
 2016/12/26 22:32:41 SUCCESS  ▶ 0002 Baled resources successfully!
 ```
@@ -301,12 +299,12 @@ For example, to generate a new controller named `hello`:
 
 ```bash
 $ radical generate controller hello
-______
-| ___ \
-| |_/ /  ___   ___
-| ___ \ / _ \ / _ \
-| |_/ /|  __/|  __/
-\____/  \___| \___| v1.6.2
+
+██████   █████  ██████  ██  █████  ███    ██ ████████ 
+██   ██ ██   ██ ██   ██ ██ ██   ██ ████   ██    ██    
+██████  ███████ ██   ██ ██ ███████ ██ ██  ██    ██    
+██   ██ ██   ██ ██   ██ ██ ██   ██ ██  ██ ██    ██    
+██   ██ ██   ██ ██████  ██ ██   ██ ██   ████    ██  v1.0.0
 2016/12/26 22:33:58 INFO     ▶ 0001 Using 'Hello' as controller name
 2016/12/26 22:33:58 INFO     ▶ 0002 Using 'controllers' as package name
     create   /home/radicaluser/.go/src/github.com/user/my-web-app/controllers/hello.go
@@ -323,12 +321,12 @@ For example, to generate a Dockerfile with `Go version 1.6.4` and exposing port 
 
 ```bash
 $ radical dockerize -image="library/golang:1.6.4" -expose=9000
-______
-| ___ \
-| |_/ /  ___   ___
-| ___ \ / _ \ / _ \
-| |_/ /|  __/|  __/
-\____/  \___| \___| v1.6.2
+
+██████   █████  ██████  ██  █████  ███    ██ ████████ 
+██   ██ ██   ██ ██   ██ ██ ██   ██ ████   ██    ██    
+██████  ███████ ██   ██ ██ ███████ ██ ██  ██    ██    
+██   ██ ██   ██ ██   ██ ██ ██   ██ ██  ██ ██    ██    
+██   ██ ██   ██ ██████  ██ ██   ██ ██   ████    ██  v1.0.0
 2016/12/26 22:34:54 INFO     ▶ 0001 Generating Dockerfile...
 2016/12/26 22:34:54 SUCCESS  ▶ 0002 Dockerfile generated.
 ```
@@ -340,12 +338,11 @@ For more information on the usage, run `radical help dockerize`.
 radical can also help with debugging your application. To start a debugging session:
 
 ```bash
-______
-| ___ \
-| |_/ /  ___   ___
-| ___ \ / _ \ / _ \
-| |_/ /|  __/|  __/
-\____/  \___| \___| v1.8.0
+██████   █████  ██████  ██  █████  ███    ██ ████████ 
+██   ██ ██   ██ ██   ██ ██ ██   ██ ████   ██    ██    
+██████  ███████ ██   ██ ██ ███████ ██ ██  ██    ██    
+██   ██ ██   ██ ██   ██ ██ ██   ██ ██  ██ ██    ██    
+██   ██ ██   ██ ██████  ██ ██   ██ ██   ████    ██  v1.0.0
 2017/03/22 11:17:05 INFO     ▶ 0001 Starting Delve Debugger...
 Type 'help' for list of commands.
 (dlv) break main.main
