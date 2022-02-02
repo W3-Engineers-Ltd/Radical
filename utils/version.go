@@ -14,4 +14,4 @@
 
 package utils
 
-const Radiant_VERSION = "v2.0.1"
+const Radiant_VERSION = "v0.0.0-20220202053408-9a1fc375156e"
