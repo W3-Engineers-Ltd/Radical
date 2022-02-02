@@ -1,0 +1,3 @@
+github.com/W3-Engineers-Ltd/Radical/cmd/commands/run/*.go:S1024
+github.com/W3-Engineers-Ltd/Radical/cmd/commands/dlv/*.go:S1024
+github.com/W3-Engineers-Ltd/Radical/utils/*.go:S1026
