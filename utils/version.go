@@ -1,3 +1,3 @@
 package utils
 
-const Radiant_VERSION = "v0.0.1"
+const Radiant_VERSION = "v0.0.2"
