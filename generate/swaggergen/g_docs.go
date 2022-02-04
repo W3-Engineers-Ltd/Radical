@@ -144,7 +144,7 @@ func parsePackageFromDir(path string) error {
 // GenerateDocs generates documentations for a given path.
 func GenerateDocs(curpath string) {
 	pkgspath := curpath
-	workspace := os.Getenv("radicalWorkspace")
+	workspace := os.Getenv("RadicalWorkspace")
 	if workspace != "" {
 		pkgspath = workspace
 	}
