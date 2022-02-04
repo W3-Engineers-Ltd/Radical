@@ -312,7 +312,7 @@ func GenerateDocs(curpath string) {
 			}
 		}
 	}
-	os.Mkdir(path.Join(curpath, "swagger"), 0755)
+	os.Mkdir(path.Join(curpath, "radiant-swagger-master"), 0755)
 	fd, err := os.Create(path.Join(curpath, "swagger", "swagger.json"))
 	if err != nil {
 		panic(err)
