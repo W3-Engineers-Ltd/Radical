@@ -1321,7 +1321,7 @@ func (c *{{ctrlName}}Controller) Delete() {
 	c.ServeJSON()
 }
 `
-	RouterTPL = `// @APIVersion 1.0.0
+	RouterTPL = `// @APIVersion 0.0.3
 // @Title radiant Test API
 // @Description radiant has a very cool tools to autogenerate documents for your API
 // @Contact astaxie@gmail.com
