@@ -156,7 +156,7 @@ func RunApp(cmd *commands.Command, args []string) int {
 		}
 	}
 	if downdoc == "true" {
-		if _, err := os.Stat(path.Join(appPath, "radiant-swagger-master", "index.html")); err != nil {
+		if _, err := os.Stat(path.Join(appPath, "swagger", "index.html")); err != nil {
 			if os.IsNotExist(err) {
 				downloadFromURL(swaggerlink, "swagger.zip")
 				unzipAndDelete("swagger.zip")

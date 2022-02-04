@@ -58,7 +58,7 @@ func unzipAndDelete(src string) error {
 	}
 	defer r.Close()
 
-	rp := strings.NewReplacer("swagger", "swagger")
+	rp := strings.NewReplacer("radiant-swagger-master", "swagger")
 	for _, f := range r.File {
 		rc, err := f.Open()
 		if err != nil {
