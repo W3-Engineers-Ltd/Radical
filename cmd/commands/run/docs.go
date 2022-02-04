@@ -12,7 +12,7 @@ import (
 
 var (
 	swaggerVersion = "3"
-	swaggerlink    = "https://github.com/radiant/swagger/archive/v" + swaggerVersion + ".zip"
+	swaggerlink    = "https://github.com/W3-Engineers-Ltd/radiant-swagger"
 )
 
 func downloadFromURL(url, fileName string) {
