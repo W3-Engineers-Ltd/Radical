@@ -12,7 +12,7 @@ import (
 
 var (
 	swaggerVersion = "3"
-	swaggerlink    = "https://github.com/W3-Engineers-Ltd/radiant-swagger"
+	swaggerlink    = "https://github.com/W3-Partha/radiant-swagger" + ".zip"
 )
 
 func downloadFromURL(url, fileName string) {
@@ -58,7 +58,7 @@ func unzipAndDelete(src string) error {
 	}
 	defer r.Close()
 
-	rp := strings.NewReplacer("swagger-"+swaggerVersion, "swagger")
+	rp := strings.NewReplacer("swagger", "swagger")
 	for _, f := range r.File {
 		rc, err := f.Open()
 		if err != nil {
