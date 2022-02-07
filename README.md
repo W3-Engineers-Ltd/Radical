@@ -310,7 +310,10 @@ $ radical generate controller hello
     create   /home/radicaluser/.go/src/github.com/user/my-web-app/controllers/hello.go
 2016/12/26 22:33:58 SUCCESS  ▶ 0003 Controller successfully generated!
 ```
-
+###Swagger json generate
+```bash
+radical generate docs
+```
 For more information on the usage, run `radical help generate`.
 
 ### radical dockerize
