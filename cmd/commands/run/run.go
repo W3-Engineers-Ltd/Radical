@@ -15,7 +15,7 @@ import (
 )
 
 var CmdRun = &commands.Command{
-	UsageLine: "run [appname] [watchall] [-main=*.go] [-downdoc=true]  [-gendoc=true] [-vendor=true] [-e=folderToExclude] [-ex=extraPackageToWatch] [-tags=goBuildTags] [-runmode=BEEGO_RUNMODE]",
+	UsageLine: "run [appname] [watchall] [-main=*.go] [-downdoc=true]  [-gendoc=true] [-vendor=true] [-e=folderToExclude] [-ex=extraPackageToWatch] [-tags=goBuildTags] [-runmode=RADIANT_RUNMODE]",
 	Short:     "Run the application by starting a local development server",
 	Long: `
 Run command will supervise the filesystem of the application for any changes, and recompile/restart it.
@@ -109,13 +109,13 @@ func RunApp(cmd *commands.Command, args []string) int {
 	radicalLogger.Log.Debugf("Current path: %s", utils.FILE(), utils.LINE(), appPath)
 
 	if runmode == "prod" || runmode == "dev" {
-		os.Setenv("BEEGO_RUNMODE", runmode)
-		radicalLogger.Log.Infof("Using '%s' as 'runmode'", os.Getenv("BEEGO_RUNMODE"))
+		os.Setenv("RADIANT_RUNMODE", runmode)
+		radicalLogger.Log.Infof("Using '%s' as 'runmode'", os.Getenv("RADIANT_RUNMODE"))
 	} else if runmode != "" {
-		os.Setenv("BEEGO_RUNMODE", runmode)
-		radicalLogger.Log.Warnf("Using '%s' as 'runmode'", os.Getenv("BEEGO_RUNMODE"))
-	} else if os.Getenv("BEEGO_RUNMODE") != "" {
-		radicalLogger.Log.Warnf("Using '%s' as 'runmode'", os.Getenv("BEEGO_RUNMODE"))
+		os.Setenv("RADIANT_RUNMODE", runmode)
+		radicalLogger.Log.Warnf("Using '%s' as 'runmode'", os.Getenv("RADIANT_RUNMODE"))
+	} else if os.Getenv("RADIANT_RUNMODE") != "" {
+		radicalLogger.Log.Warnf("Using '%s' as 'runmode'", os.Getenv("RADIANT_RUNMODE"))
 	}
 
 	var paths []string

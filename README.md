@@ -387,7 +387,7 @@ For instance, to get more information about the `run` command:
 ```bash
 $ radical help run
 USAGE
-  radical run [appname] [watchall] [-main=*.go] [-downdoc=true]  [-gendoc=true] [-vendor=true] [-e=folderToExclude]  [-tags=goBuildTags] [-runmode=BEEGO_RUNMODE]
+  radical run [appname] [watchall] [-main=*.go] [-downdoc=true]  [-gendoc=true] [-vendor=true] [-e=folderToExclude]  [-tags=goBuildTags] [-runmode=RADIANT_RUNMODE]
 
 OPTIONS
   -downdoc
