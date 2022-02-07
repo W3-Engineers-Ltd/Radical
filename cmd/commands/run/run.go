@@ -1,6 +1,7 @@
 package run
 
 import (
+	"fmt"
 	"io/ioutil"
 	"os"
 	path "path/filepath"
@@ -156,6 +157,7 @@ func RunApp(cmd *commands.Command, args []string) int {
 		}
 	}
 	if downdoc == "true" {
+		fmt.Println("Downdoc: ", files)
 		if _, err := os.Stat(path.Join(appPath, "swagger", "index.html")); err != nil {
 			if os.IsNotExist(err) {
 				downloadFromURL(swaggerlink, "swagger.zip")
@@ -169,6 +171,7 @@ func RunApp(cmd *commands.Command, args []string) int {
 		startReloadServer()
 	}
 	if gendoc == "true" {
+		fmt.Println("gendoc: ", files)
 		NewWatcher(paths, files, true)
 		AutoBuild(files, true)
 	} else {
