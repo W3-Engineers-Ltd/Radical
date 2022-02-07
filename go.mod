@@ -1,6 +1,6 @@
 module github.com/W3-Engineers-Ltd/Radical
 
-go 1.17
+go 1.16
 
 require (
 	github.com/W3-Engineers-Ltd/Radiant v1.0.7
