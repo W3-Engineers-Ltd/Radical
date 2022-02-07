@@ -1,9 +1,9 @@
 module github.com/W3-Engineers-Ltd/Radical
 
-go 1.13
+go 1.17
 
 require (
-	github.com/W3-Engineers-Ltd/Radiant v1.0.3
+	github.com/W3-Engineers-Ltd/Radiant v1.0.4
 	github.com/davecgh/go-spew v1.1.1
 	github.com/flosch/pongo2 v0.0.0-20200913210552-0d938eb266f3
 	github.com/fsnotify/fsnotify v1.5.1
