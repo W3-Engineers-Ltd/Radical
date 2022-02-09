@@ -64,12 +64,8 @@ github.com/Shopify/goreferrer v0.0.0-20181106222321-ec9c9a553398/go.mod h1:a1uqR
 github.com/Shopify/sarama v1.19.0/go.mod h1:FVkBWblsNy7DGZRfXLU0O9RCGt5g3g3yEuWXgklEdEo=
 github.com/Shopify/toxiproxy v2.1.4+incompatible/go.mod h1:OXgGpZ6Cli1/URJOF1DMxUHB2q5Ap20/P/eIdh4G0pI=
 github.com/VividCortex/gohistogram v1.0.0/go.mod h1:Pf5mBqqDxYaXu3hDrrU+w6nw50o/4+TcAqDqk/vUH7g=
-github.com/W3-Engineers-Ltd/Radiant v1.0.9 h1:0FQYNykfMImHZxcsa/4BD1WlUQGExkaJ/5T4aJoQOB0=
-github.com/W3-Engineers-Ltd/Radiant v1.0.9/go.mod h1:B2nqJT0m9wxbEbkZImZ9ir4I4oCSAUqJjIRrfaUgMJE=
-github.com/W3-Engineers-Ltd/Radiant v1.0.10 h1:Mr6h6/2TnIrL4XSAdaQ55Cyg7cbj9Pj/UZklbSPi1Z8=
-github.com/W3-Engineers-Ltd/Radiant v1.0.10/go.mod h1:/dZUbtc2Eb0aQyRzFWMzEkJgXc+Db1d7DaMILWLr9fc=
-github.com/W3-Engineers-Ltd/Radiant v1.0.11 h1:QFmxCF7KYy+ZeYLGPyHFEPdVnZF0YTp6KR7qMXppfA8=
-github.com/W3-Engineers-Ltd/Radiant v1.0.11/go.mod h1:/dZUbtc2Eb0aQyRzFWMzEkJgXc+Db1d7DaMILWLr9fc=
+github.com/W3-Engineers-Ltd/Radiant v1.0.12 h1:nTX+y7NnMTT5vjT3sp8YBjusut/djGdfu15D6KVqXK4=
+github.com/W3-Engineers-Ltd/Radiant v1.0.12/go.mod h1:/dZUbtc2Eb0aQyRzFWMzEkJgXc+Db1d7DaMILWLr9fc=
 github.com/afex/hystrix-go v0.0.0-20180502004556-fa1af6a1f4f5/go.mod h1:SkGFH1ia65gfNATL8TAiHDNxPzPdmEL5uirI2Uyuz6c=
 github.com/ajg/form v1.5.1/go.mod h1:uL1WgH+h2mgNtvBq0339dVnzXdBETtL2LeUXaIv25UY=
 github.com/ajstarks/svgo v0.0.0-20180226025133-644b8db467af/go.mod h1:K08gAheRH3/J6wwsYMMT4xOr94bZjxIelGM0+d/wbFw=
