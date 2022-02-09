@@ -122,7 +122,7 @@ func AutoBuild(files []string, isgenerate bool) {
 
 	if isgenerate {
 		radicalLogger.Log.Info("Generating the docs...")
-		icmd := exec.Command("radical", "generate", "docs")
+		icmd := exec.Command("Radical", "generate", "docs")
 		icmd.Env = append(os.Environ(), "GOGC=off")
 		err = icmd.Run()
 		if err != nil {
